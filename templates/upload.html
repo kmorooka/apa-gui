@@ -1,0 +1,21 @@
+<!doctypehtml>
+<html>
+  <head>
+  	<meta charset="utf8"/>
+  </head>
+  <body>
+  	<h1>棚卸しシートをアップロードします</h1>
+	  ★ダウンロードのポップアップ画面が表示されるまで、気長〜にお待ち下さい。<br>
+	   アップロードしたデータ量に応じて数十秒〜数分かかる場合があります。<br><br>
+	  ★送信ボタンを複数回クリックするとエラーになります。ブラウザタブで処理中かどうかを確認し、気長にお待ち下さい。<br>
+	   シートの項目がすべて空欄の場合、グラフ出力は行わず、ファイルも生成されません。<br>
+	  <br>
+  	<form method="POST" action="/upload" enctype="multipart/form-data">
+  	  <input placeholder="データ" name="the_file" type="file"/>
+  	  <input value="送信" type="submit"/>
+  	</form>
+	<br>
+	<a href="/">もとに戻る</a><br>
+  </body>
+</html>
+
