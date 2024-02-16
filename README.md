@@ -1,4 +1,4 @@
-# apa=gui v3  プログラム説明
+# apa-gui v3  プログラム説明
 
 * apa-guiは、APAのQuickSightでのグラフ化を、pythonプログラムで自動生成するツールです。
 * 生成されるファイルは、各グラフごとに１つのpng形式ファイルです。
